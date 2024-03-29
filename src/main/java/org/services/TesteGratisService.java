@@ -7,10 +7,12 @@ public class TesteGratisService {
     private static final TesteGratisRepository testeGratisRepository = new TesteGratisRepository();
 
     // verifica se já tem um email cadastrado na tabela de teste grátis, se não tiver, cria um novo registro
-    public void Create(TesteGratis entidade) {
+    public TesteGratis Create(TesteGratis entidade) {
         if (testeGratisRepository.ReadByEmail(entidade.getEmail())) {
-            return ;
+            return null;
         }
         testeGratisRepository.Create(entidade);
+        return testeGratisRepository.ReadAll().stream().filter(e ->
+                e.getEmail().equalsIgnoreCase(entidade.getEmail())).findFirst().orElse(null);
     }
 }

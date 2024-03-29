@@ -105,14 +105,14 @@ public class TesteGratis extends _BaseEntities {
     @Override
     public String toString() {
         return "TesteGratis{" +
-                "nomeEmpresa='" + nome + '\'' +
-                ", dataSoliciacao=" + sobrenome +
-                ", dataExpiracao=" + cargo +
+                "nome='" + nome + '\'' +
+                ", sobrenome='" + sobrenome + '\'' +
+                ", cargo='" + cargo + '\'' +
                 ", email='" + email + '\'' +
                 ", telefone='" + telefone + '\'' +
                 ", pais=" + pais +
                 ", idioma=" + idioma +
                 ", porteEmpresa=" + porteEmpresa +
-                "} " + super.toString();
+                '}';
     }
 }

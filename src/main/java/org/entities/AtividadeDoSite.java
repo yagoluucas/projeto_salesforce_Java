@@ -1,16 +1,17 @@
 package org.entities;
 
+import java.sql.Date;
 import java.time.LocalDateTime;
 
 public class AtividadeDoSite extends _BaseEntities{
     private char oportunidade;
-    private LocalDateTime data;
+    private Date data;
     private Suporte suporte;
     private TesteGratis testeGratis;
 
     public AtividadeDoSite(){}
 
-    public AtividadeDoSite(int id, char oportunidade, LocalDateTime data, Suporte suporte, TesteGratis testeGratis) {
+    public AtividadeDoSite(int id, char oportunidade, Date data, Suporte suporte, TesteGratis testeGratis) {
         super(id);
         this.oportunidade = oportunidade;
         this.data = data;
@@ -26,11 +27,11 @@ public class AtividadeDoSite extends _BaseEntities{
         this.oportunidade = oportunidade;
     }
 
-    public LocalDateTime getData() {
+    public Date getData() {
         return data;
     }
 
-    public void setData(LocalDateTime data) {
+    public void setData(Date data) {
         this.data = data;
     }
 

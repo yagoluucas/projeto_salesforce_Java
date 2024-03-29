@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
-public class TesteGratisRepository implements _Logger, _BaseRepository<TesteGratis>{
+public class TesteGratisRepository implements _Logger<TesteGratis>, _BaseRepository<TesteGratis>{
     private static final PaisRepository paisRepository = new PaisRepository();
     private static final PorteEmpresaRepository porteEmpresaRepository = new PorteEmpresaRepository();
     private static final IdiomaRepository idiomaRepository = new IdiomaRepository();
@@ -97,7 +97,6 @@ public class TesteGratisRepository implements _Logger, _BaseRepository<TesteGrat
                         porteEmpresaRepository.Read(resultQuery.getInt(TABLE_COLUMNS.get("ID_PORTE_EMPRESA")))
                 );
             }
-            logInfo("Recuperação de teste grátis feita com sucesso: " + testeGratis);
         }catch (SQLException e) {
             logError("Erro ao recuperar teste grátis: " + e.getMessage());
         }

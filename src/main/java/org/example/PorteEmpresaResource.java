@@ -12,8 +12,6 @@ import java.util.List;
 @Path("porteempresa")
 public class PorteEmpresaResource {
     private static PorteEmpresaRepository portesEmpresa= new PorteEmpresaRepository();
-
-
     @GET
     @Produces(MediaType.APPLICATION_JSON)
     public static List<PorteEmpresa> portesEmpresa() {
