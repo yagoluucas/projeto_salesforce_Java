@@ -30,10 +30,12 @@ public class TesteGratisResource {
 
     @POST
     @Consumes(MediaType.APPLICATION_JSON)
-    public void addTesteGratis(TesteGratis testeGratis) {
+    public String addTesteGratis(TesteGratis testeGratis) {
         TesteGratis resultado = testeGratisService.Create(testeGratis);
         if (resultado != null) {
             atividadeDoSiteRepository.Create(resultado.getId(), "teste");
+            return "Teste grátis cadastrado com sucesso!";
         }
+        return "Email já cadastrado!";
     }
 }

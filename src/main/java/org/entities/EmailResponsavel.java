@@ -3,13 +3,20 @@ package org.entities;
 public class EmailResponsavel extends _BaseEntities {
     private String email;
     private char principal;
-    private Responsavel responsavel;
     private char valido;
+    private Responsavel responsavel;
 
     public EmailResponsavel(){}
 
-    public EmailResponsavel(int id, String email, char principal, Responsavel responsavel, char valido) {
+    public EmailResponsavel(int id, String email, char principal, char valido, Responsavel responsavel) {
         super(id);
+        this.email = email;
+        this.principal = principal;
+        this.responsavel = responsavel;
+        this.valido = valido;
+    }
+
+    public EmailResponsavel(String email, char principal, char valido, Responsavel responsavel) {
         this.email = email;
         this.principal = principal;
         this.responsavel = responsavel;
