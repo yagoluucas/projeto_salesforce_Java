@@ -10,6 +10,10 @@ public class Pais extends _BaseEntities {
         Descricao = pais;
     }
 
+    public Pais (String pais) {
+        Descricao = pais;
+    }
+
     public String getDescricao() {
         return Descricao;
     }

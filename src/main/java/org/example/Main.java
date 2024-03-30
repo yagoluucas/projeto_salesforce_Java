@@ -1,9 +1,13 @@
 package org.example;
 
 import org.configuration.CorsFilter;
+import org.entities.Idioma;
+import org.entities.Pais;
 import org.glassfish.grizzly.http.server.HttpServer;
 import org.glassfish.jersey.grizzly2.httpserver.GrizzlyHttpServerFactory;
 import org.glassfish.jersey.server.ResourceConfig;
+import org.repository.IdiomaRepository;
+import org.repository.PaisRepository;
 
 import java.io.IOException;
 import java.net.URI;
@@ -39,8 +43,23 @@ public class Main {
         final HttpServer server = startServer();
         System.out.println(String.format("Jersey app started with endpoints available at "
                 + "%s%nHit Ctrl-C to stop it...", BASE_URI));
+
+
+
+        // o codigo abaixo é para popular o banco de dados com alguns idiomas, somente para exemplificar
+        IdiomaRepository idiomaRepository = new IdiomaRepository();
+        Idioma idioma = new Idioma("Romeno");
+        Idioma idioma2 = new Idioma("Grego");
+        idiomaRepository.Create(idioma);
+        idiomaRepository.Create(idioma2);
+
+        // exemplo de pais para popular o banco de dados
+        PaisRepository paisRepository = new PaisRepository();
+        paisRepository.Create(new Pais("Argentina"));
+        paisRepository.Create(new Pais("Turquia"));
         System.in.read();
         server.stop();
+
     }
 }
 

@@ -10,6 +10,8 @@
 - [Configuração do CORS](#configuração-do-cors)
 - [Interface de LOGGER](#interface-de-logger)
 - [Projeto em execução](#projeto-em-execução)
+- [Insert no banco de dados](#insert-no-banco-de-dados)
+- [Conclusão](#conclusão)
 
 ## Objetivo
 Nosso projeto tem como objetivo criar um sistema de integração com o banco de dados e com a nossa página do challenge Salesforce
@@ -75,6 +77,19 @@ Caso de algum erro, enviamos uma mensagem ao front end, como por exemplo, quando
 Caso não de erro, enviamos uma mensagem ao front end, como por exemplo, quando o teste grátis é cadastrado com sucesso:
 ![imagem de post](img/postsucesso.jpeg)
 
+## Insert no banco de dados
+No nosso projeto, na classe main, deixamos 2 inserções em duas tabelas diferentes, para quando o codigo ser executao 
+essa inserção seja feita no banco de dados, caso queira confirmar voce pode tem 3 opçoes:
+- Acessar o banco de dados e executar uma QUERY nas tabelas de idioma e pais, usando a query abaixo
+```sql
+SELECT * FROM IDIOMA;
+SELECT * FROM PAIS;
+```
+- É possivel acessar nosso arquivo de log disponivel na pasta logs, e verificar se a inserção foi feita com sucesso
+- Ir até o seu navegador e inserir o link abaixo para o mesmo fazer uma consultar no banco de dados usando o metodo GET:
+http://localhost:8080/idioma/  
+http://localhost:8080/pais/  
+Caso não funcione, verifique se o arquivo Java foi executado com sucesso.
 ## Conclusão
 O projeto foi desenvolvido com sucesso, atendendo a nossa 3 sprint do challenge da salesforce, onde foi desenvolvido um sistema de integração com o banco de dados e com a nossa página do challenge Salesforce.
 
