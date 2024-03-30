@@ -6,7 +6,6 @@ import jakarta.ws.rs.PathParam;
 import jakarta.ws.rs.Produces;
 import jakarta.ws.rs.core.MediaType;
 import org.entities.Idioma;
-import org.entities.Pais;
 import org.repository.IdiomaRepository;
 
 import java.util.List;
@@ -15,6 +14,7 @@ import java.util.List;
 public class IdiomaResource {
     private static final IdiomaRepository idiomaRepository = new IdiomaRepository();
 
+    // no front end é necessário pegar os idiomas cadastrados para construir o objeto de teste gratis
     @GET
     @Produces(MediaType.APPLICATION_JSON)
     public static List<Idioma> getIdiomas() {

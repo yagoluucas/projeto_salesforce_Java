@@ -12,14 +12,13 @@ import java.util.List;
 @Path("pais")
 public class PaisResource {
 
+    // no front end é necessário pegar os paises cadastrados para construir o objeto de teste gratis
     public static PaisRepository paisRepository = new PaisRepository();
-
     @GET
     @Produces(MediaType.APPLICATION_JSON)
     public static List<Pais> getPaises() {
         return paisRepository.ReadAll();
     }
-
     @GET
     @Path("{id}")
     @Produces(MediaType.APPLICATION_JSON)

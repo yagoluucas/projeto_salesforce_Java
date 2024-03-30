@@ -11,6 +11,8 @@ import java.util.List;
 
 @Path("porteempresa")
 public class PorteEmpresaResource {
+
+    // no front end é necessário pegar os portes de empresa cadastrados para construir o objeto de teste gratis
     private static PorteEmpresaRepository portesEmpresa= new PorteEmpresaRepository();
     @GET
     @Produces(MediaType.APPLICATION_JSON)

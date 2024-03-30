@@ -3,7 +3,6 @@ import org.configuration.OracleDatabase;
 import org.entities.AtividadeDoSite;
 import org.utils._Logger;
 import java.sql.SQLException;
-import java.time.ZoneId;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;

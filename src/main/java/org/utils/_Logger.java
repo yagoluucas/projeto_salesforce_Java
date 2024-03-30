@@ -7,11 +7,11 @@ import org.apache.logging.log4j.core.LogEvent;
 import org.apache.logging.log4j.core.impl.Log4jLogEvent;
 import org.apache.logging.log4j.core.layout.PatternLayout;
 import org.apache.logging.log4j.message.SimpleMessage;
-
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 
+// esta interface de _LOGGER foi feita para todas as classes de repository para registrar logs
 public interface _Logger<T>{
     Logger LOGGER = LogManager.getLogger(_Logger.class);
     PatternLayout layout = PatternLayout.newBuilder().
@@ -28,6 +28,8 @@ public interface _Logger<T>{
         LOGGER.error(message);
         saveLog(formatadeLog(Level.ERROR, message));
     }
+
+    // este método é responsável por salvar o log em um arquivo .log
     private void saveLog(String message) {
         try {
             File file = new File("logs\\salesforce.log");

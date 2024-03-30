@@ -1,0 +1,43 @@
+19:30:24.912 [grizzly-http-server-5] INFO  org.utils._Logger - Recuperação de portes de empresa feita com sucesso, total de linhas: 5
+19:30:25.271 [grizzly-http-server-6] INFO  org.utils._Logger - Recuperação de Paises feita com sucesso
+19:30:25.451 [grizzly-http-server-9] INFO  org.utils._Logger - Recuperação de idiomas feita com sucesso, total de idiomas: 15
+19:49:09.013 [grizzly-http-server-0] INFO  org.utils._Logger - Recuperação de porte de empresa feita com sucesso
+19:49:09.312 [grizzly-http-server-1] INFO  org.utils._Logger - Recuperação de Pais feita com sucesso
+19:49:09.437 [grizzly-http-server-2] INFO  org.utils._Logger - Recuperação de idioma feita com sucesso
+19:49:09.611 [grizzly-http-server-4] INFO  org.utils._Logger - Email já cadastrado na tabela de teste grátis
+20:41:12.730 [grizzly-http-server-5] INFO  org.utils._Logger - Recuperação de porte de empresa feita com sucesso
+20:41:13.008 [grizzly-http-server-7] INFO  org.utils._Logger - Recuperação de porte de empresa feita com sucesso
+20:41:13.016 [grizzly-http-server-9] INFO  org.utils._Logger - Recuperação de Pais feita com sucesso
+20:41:13.131 [grizzly-http-server-10] INFO  org.utils._Logger - Recuperação de Pais feita com sucesso
+20:41:13.136 [grizzly-http-server-12] INFO  org.utils._Logger - Recuperação de idioma feita com sucesso
+20:41:13.252 [grizzly-http-server-3] INFO  org.utils._Logger - Recuperação de idioma feita com sucesso
+20:41:13.304 [grizzly-http-server-19] INFO  org.utils._Logger - Email já cadastrado na tabela de teste grátis
+20:41:13.585 [grizzly-http-server-8] INFO  org.utils._Logger - Email já cadastrado na tabela de teste grátis
+20:46:25.450 [grizzly-http-server-0] INFO  org.utils._Logger - Recuperação de porte de empresa feita com sucesso
+20:46:25.569 [grizzly-http-server-1] INFO  org.utils._Logger - Recuperação de Pais feita com sucesso
+20:46:25.711 [grizzly-http-server-11] INFO  org.utils._Logger - Recuperação de idioma feita com sucesso
+20:46:25.839 [grizzly-http-server-28] INFO  org.utils._Logger - Email já cadastrado na tabela de teste grátis
+20:46:52.189 [grizzly-http-server-14] INFO  org.utils._Logger - Recuperação de porte de empresa feita com sucesso
+20:46:52.306 [grizzly-http-server-15] INFO  org.utils._Logger - Recuperação de Pais feita com sucesso
+20:46:52.420 [grizzly-http-server-4] INFO  org.utils._Logger - Recuperação de idioma feita com sucesso
+20:46:52.690 [grizzly-http-server-18] INFO  org.utils._Logger - Inserção de teste grátis feita com sucesso, linhas afetadas: 1
+20:46:52.904 [grizzly-http-server-18] INFO  org.utils._Logger - Recuperação de Pais feita com sucesso
+20:46:53.022 [grizzly-http-server-18] INFO  org.utils._Logger - Recuperação de idioma feita com sucesso
+20:46:53.151 [grizzly-http-server-18] INFO  org.utils._Logger - Recuperação de porte de empresa feita com sucesso
+20:46:53.299 [grizzly-http-server-18] INFO  org.utils._Logger - Recuperação de Pais feita com sucesso
+20:46:53.432 [grizzly-http-server-18] INFO  org.utils._Logger - Recuperação de idioma feita com sucesso
+20:46:53.548 [grizzly-http-server-18] INFO  org.utils._Logger - Recuperação de porte de empresa feita com sucesso
+20:46:53.659 [grizzly-http-server-18] INFO  org.utils._Logger - Recuperação de Pais feita com sucesso
+20:46:53.800 [grizzly-http-server-18] INFO  org.utils._Logger - Recuperação de idioma feita com sucesso
+20:46:53.978 [grizzly-http-server-18] INFO  org.utils._Logger - Recuperação de porte de empresa feita com sucesso
+20:46:54.106 [grizzly-http-server-18] INFO  org.utils._Logger - Recuperação de Pais feita com sucesso
+20:46:54.220 [grizzly-http-server-18] INFO  org.utils._Logger - Recuperação de idioma feita com sucesso
+20:46:54.351 [grizzly-http-server-18] INFO  org.utils._Logger - Recuperação de porte de empresa feita com sucesso
+20:46:54.676 [grizzly-http-server-18] INFO  org.utils._Logger - Recuperação de Pais feita com sucesso
+20:46:54.810 [grizzly-http-server-18] INFO  org.utils._Logger - Recuperação de idioma feita com sucesso
+20:46:54.914 [grizzly-http-server-18] INFO  org.utils._Logger - Recuperação de porte de empresa feita com sucesso
+20:46:55.028 [grizzly-http-server-18] INFO  org.utils._Logger - Recuperação de Pais feita com sucesso
+20:46:55.141 [grizzly-http-server-18] INFO  org.utils._Logger - Recuperação de idioma feita com sucesso
+20:46:55.257 [grizzly-http-server-18] INFO  org.utils._Logger - Recuperação de porte de empresa feita com sucesso
+20:46:55.264 [grizzly-http-server-18] INFO  org.utils._Logger - Recuperação de testes grátis feita com sucesso, total de testes grátis: 6
+20:46:55.379 [grizzly-http-server-18] INFO  org.utils._Logger - Inserção de atividade do site feita com sucesso, linhas afetadas: 1
