@@ -5,6 +5,11 @@
 - [Requisitos](#requisitos)
 - [Instalação](#instalação)
 - [Descrição sobre o projeto](#descrição-sobre-o-projeto)
+- [Classe main](#clase-main)
+- [Configuração do banco de dados](#configuração-do-banco-de-dados)
+- [Configuração do CORS](#configuração-do-cors)
+- [Interface de LOGGER](#interface-de-logger)
+- [Projeto em execução](#projeto-em-execução)
 
 ## Objetivo
 Nosso projeto tem como objetivo criar um sistema de integração com o banco de dados e com a nossa página do challenge Salesforce
@@ -19,7 +24,7 @@ Para instalar o projeto, basta clonar o repositorio e rodar o comando:
 ```git
  git clone https://github.com/yagoluucas/projeto_salesforce_java.git
 ```
-## Descrção sobre o projeto
+## Descrição sobre o projeto
 O projeto foi desnvolvido utilizando o Java e o Grizzly, um servidor HTTP em Java. O projeto é um sistema de integração com o banco de dados e com a nossa página do challenge salesforce. 
 O projeto foi desenvolvido para a atender a nossa 3 sprint do challenge da salesforce, e nele temos os seguintes pacotes:
 - Configuration : onde temos a configuração do banco de dados e tambem a configuração do header de acesso ao CORS
@@ -53,10 +58,25 @@ Essas linhas de LOGGER fica armazenada em um arquivo chamado salesforce.log dent
 Abaixo temos print que mostra o projeto em execução.
 
 ### Registro de _LOGGER
-![](C:\Users\Yago\programacao\java\sprint3\img\logger.jpeg)(
+Abaixo temos nosso registro de _LOGGER, onde é mostrado o log de informações, erros e etc.
+![imagem de logger](img/logger.jpeg)
 
-)
+### GET
+Usamos o GET para pegar os dados do banco de dados e mostrar na nossa página, neste exemplo usamos o 
+![imagem de get](img/GET.jpeg)
 
+### POST
+Usamos o POST para pegar um um teste grátis do nosso site e salvar no banco de dados usando o metodo abaixo:
+![imagem de post](img/POST.jpeg)
+
+Caso de algum erro, enviamos uma mensagem ao front end, como por exemplo, quando já tem um teste grátis cadastrado com o mesmo email:
+![imagem de post](img/posterro.jpeg)
+
+Caso não de erro, enviamos uma mensagem ao front end, como por exemplo, quando o teste grátis é cadastrado com sucesso:
+![imagem de post](img/postsucesso.jpeg)
+
+## Conclusão
+O projeto foi desenvolvido com sucesso, atendendo a nossa 3 sprint do challenge da salesforce, onde foi desenvolvido um sistema de integração com o banco de dados e com a nossa página do challenge Salesforce.
 
 
 
