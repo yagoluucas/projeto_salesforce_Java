@@ -1,11 +1,11 @@
 package org.entities;
 
-public abstract class _BaseEntities {
+public abstract class _BaseEntity {
     private int id;
 
-    public _BaseEntities(){}
+    public _BaseEntity(){}
 
-    public _BaseEntities(int id) {
+    public _BaseEntity(int id) {
         this.id = id;
     }
 

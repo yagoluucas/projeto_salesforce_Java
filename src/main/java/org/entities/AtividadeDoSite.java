@@ -1,9 +1,8 @@
 package org.entities;
 
 import java.sql.Date;
-import java.time.LocalDateTime;
 
-public class AtividadeDoSite extends _BaseEntities{
+public class AtividadeDoSite extends _BaseEntity {
     private char oportunidade;
     private Date data;
     private Suporte suporte;

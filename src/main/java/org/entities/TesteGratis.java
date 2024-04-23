@@ -1,9 +1,7 @@
 package org.entities;
 
 
-import java.time.LocalDateTime;
-
-public class TesteGratis extends _BaseEntities {
+public class TesteGratis extends _BaseEntity {
     private String nome;
     private String sobrenome;
     private String cargo;

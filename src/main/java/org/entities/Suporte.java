@@ -1,5 +1,5 @@
 package org.entities;
-public class Suporte extends _BaseEntities {
+public class Suporte extends _BaseEntity {
     private String nomeEmpresa;
     private String nomePessoa;
     private String sobrenomePessoa;

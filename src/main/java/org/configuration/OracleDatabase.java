@@ -1,17 +1,38 @@
 package org.configuration;
+import java.io.FileInputStream;
+import java.io.IOException;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
+import java.util.Properties;
 
 public class OracleDatabase {
-    private static String url = "jdbc:oracle:thin:@oracle.fiap.com.br:1521:orcl";
-    private static String user = "rm553013";
-    private static String password = "090900";
+    private static Properties properties = new Properties();
+
+    static{
+        try {
+            properties.load(new FileInputStream("credenciais.properties"));
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    private String getUser() {
+        return properties.getProperty("userName");
+    }
+
+    private String getPassword() {
+        return properties.getProperty("password");
+    }
+
+    private String getUrl() {
+        return properties.getProperty("url");
+    }
 
     public Connection getConnection() {
         Connection connection = null;
         try {
-            return DriverManager.getConnection(url, user,password);
+            return DriverManager.getConnection(getUrl(), getUser(),getPassword());
         }catch (SQLException e) {
             e.printStackTrace();
         }

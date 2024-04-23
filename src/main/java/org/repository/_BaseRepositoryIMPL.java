@@ -1,11 +1,11 @@
 package org.repository;
 
-import org.entities._BaseEntities;
+import org.entities._BaseEntity;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class _BaseRepositoryIMPL<T extends _BaseEntities> implements _BaseRepository<T> {
+public class _BaseRepositoryIMPL<T extends _BaseEntity> implements _BaseRepository<T> {
     List<T> entidades = new ArrayList<>();
 
     public _BaseRepositoryIMPL(){}

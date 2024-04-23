@@ -1,0 +1,7 @@
+23/04/2024 10:45:26 [grizzly-http-server-0] INFO  org.configuration._Logger - Recuperação de Paises feita com sucesso
+23/04/2024 10:47:39 [grizzly-http-server-0] INFO  org.configuration._Logger - Recuperação de Paises feita com sucesso
+23/04/2024 10:47:51 [grizzly-http-server-1] INFO  org.configuration._Logger - Recuperação de idiomas feita com sucesso, total de idiomas: 16
+23/04/2024 10:49:02 [grizzly-http-server-3] INFO  org.configuration._Logger - Recuperação de idiomas feita com sucesso, total de idiomas: 16
+23/04/2024 10:49:30 [grizzly-http-server-0] INFO  org.configuration._Logger - Recuperação de idiomas feita com sucesso, total de idiomas: 16
+23/04/2024 10:50:26 [grizzly-http-server-7] INFO  org.configuration._Logger - Recuperação de idiomas feita com sucesso, total de idiomas: 16
+23/04/2024 10:50:59 [grizzly-http-server-0] INFO  org.configuration._Logger - Recuperação de Paises feita com sucesso

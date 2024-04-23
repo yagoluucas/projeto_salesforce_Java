@@ -1,6 +1,6 @@
 package org.entities;
 
-public class Idioma extends _BaseEntities {
+public class Idioma extends _BaseEntity {
     private String idioma;
 
     public Idioma(){}

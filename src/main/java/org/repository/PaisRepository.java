@@ -1,7 +1,7 @@
 package org.repository;
 import org.configuration.OracleDatabase;
+import org.configuration._Logger;
 import org.entities.Pais;
-import org.utils._Logger;
 
 import java.sql.Connection;
 import java.sql.SQLException;

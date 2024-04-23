@@ -1,6 +1,6 @@
 package org.entities;
 
-public class PorteEmpresa extends _BaseEntities {
+public class PorteEmpresa extends _BaseEntity {
     private String descricao;
 
     public PorteEmpresa(){}

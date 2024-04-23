@@ -1,4 +1,4 @@
-package org.utils;
+package org.configuration;
 
 import org.apache.logging.log4j.Level;
 import org.apache.logging.log4j.LogManager;
@@ -15,7 +15,7 @@ import java.io.IOException;
 public interface _Logger<T>{
     Logger LOGGER = LogManager.getLogger(_Logger.class);
     PatternLayout layout = PatternLayout.newBuilder().
-            withPattern("%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n").build();
+            withPattern("%d{dd/MM/YYYY HH:mm:ss} [%t] %-5level %logger{36} - %msg%n").build();
     public default void logInfo(String message){
         LOGGER.info(message);
         saveLog(formatadeLog(Level.INFO, message));

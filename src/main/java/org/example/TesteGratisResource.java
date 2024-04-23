@@ -7,8 +7,6 @@ import org.entities.TesteGratis;
 import org.repository.AtividadeDoSiteRepository;
 import org.repository.TesteGratisRepository;
 import org.services.TesteGratisService;
-
-import java.lang.annotation.Documented;
 import java.util.List;
 @Path("testegratis")
 public class TesteGratisResource {

@@ -1,7 +1,8 @@
 package org.repository;
 import org.configuration.OracleDatabase;
+import org.configuration._Logger;
 import org.entities.AtividadeDoSite;
-import org.utils._Logger;
+
 import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;

@@ -1,31 +1,31 @@
 package org.entities;
 
-public class Pais extends _BaseEntities {
-    private String Descricao;
+public class Pais extends _BaseEntity {
+    private String descricao;
 
     public Pais(){}
 
     public Pais(int id, String pais) {
         super(id);
-        Descricao = pais;
+        descricao = pais;
     }
 
     public Pais (String pais) {
-        Descricao = pais;
+        descricao = pais;
     }
 
     public String getDescricao() {
-        return Descricao;
+        return descricao;
     }
 
     public void setDescricao(String descricao) {
-        Descricao = descricao;
+        this.descricao = descricao;
     }
 
     @Override
     public String toString() {
         return "Pais{" +
-                "Pais='" + Descricao + '\'' +
+                "Pais='" + descricao + '\'' +
                 "} " + super.toString();
     }
 }

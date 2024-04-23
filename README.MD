@@ -11,6 +11,7 @@
 - [Interface de LOGGER](#interface-de-logger)
 - [Projeto em execução](#projeto-em-execução)
 - [Insert no banco de dados](#insert-no-banco-de-dados)
+- [Imagens da aplicação](#imagens-da-aplicação)
 - [Conclusão](#conclusão)
 
 ## Objetivo
@@ -90,6 +91,10 @@ SELECT * FROM PAIS;
 http://localhost:8080/idioma/  
 http://localhost:8080/pais/  
 Caso não funcione, verifique se o arquivo Java foi executado com sucesso.
+
+## Imagens da aplicação
+Em nossa pasta imagens voce pode verificar com melhor qualidade as imagens da nossa aplicação incluindo print das telas do front end e o diagrama uml
+
 ## Conclusão
 O projeto foi desenvolvido com sucesso, atendendo a nossa 3 sprint do challenge da salesforce, onde foi desenvolvido um sistema de integração com o banco de dados e com a nossa página do challenge Salesforce.
 
