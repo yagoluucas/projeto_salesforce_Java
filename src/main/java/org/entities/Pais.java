@@ -2,7 +2,6 @@ package org.entities;
 
 public class Pais extends _BaseEntity {
     private String descricao;
-
     public Pais(){}
 
     public Pais(int id, String pais) {

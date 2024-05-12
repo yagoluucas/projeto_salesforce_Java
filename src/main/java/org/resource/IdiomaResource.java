@@ -1,4 +1,4 @@
-package org.example;
+package org.resource;
 
 import jakarta.ws.rs.GET;
 import jakarta.ws.rs.Path;
@@ -13,14 +13,11 @@ import java.util.List;
 @Path("idioma")
 public class IdiomaResource {
     private static final IdiomaRepository idiomaRepository = new IdiomaRepository();
-
-    // no front end é necessário pegar os idiomas cadastrados para construir o objeto de teste gratis
     @GET
     @Produces(MediaType.APPLICATION_JSON)
     public static List<Idioma> getIdiomas() {
         return idiomaRepository.ReadAll();
     }
-
     @GET
     @Produces
     @Path("{id}")

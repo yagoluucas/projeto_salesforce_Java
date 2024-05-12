@@ -1,4 +1,4 @@
-package org.example;
+package org.resource;
 import jakarta.ws.rs.GET;
 import jakarta.ws.rs.Path;
 import jakarta.ws.rs.PathParam;
@@ -13,7 +13,7 @@ import java.util.List;
 public class PorteEmpresaResource {
 
     // no front end é necessário pegar os portes de empresa cadastrados para construir o objeto de teste gratis
-    private static PorteEmpresaRepository portesEmpresa= new PorteEmpresaRepository();
+    private static final PorteEmpresaRepository portesEmpresa= new PorteEmpresaRepository();
     @GET
     @Produces(MediaType.APPLICATION_JSON)
     public static List<PorteEmpresa> portesEmpresa() {

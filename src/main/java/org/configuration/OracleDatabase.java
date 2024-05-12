@@ -16,7 +16,6 @@ public class OracleDatabase {
             e.printStackTrace();
         }
     }
-
     private String getUser() {
         return properties.getProperty("userName");
     }

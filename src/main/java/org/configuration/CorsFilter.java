@@ -10,7 +10,12 @@ import java.io.IOException;
 @Provider
 public class CorsFilter implements ContainerResponseFilter {
 
-    // metodo abaixo é responsavel por adicionar os headers necessarios para o CORS
+    /**
+     * Métodos responsável por adicionar os headers necessários para o CORS
+     * @param requestContext parametro responsável por pegar o contexto da requisição
+     * @param responseContext parametro responsável por pegar o contexto da resposta
+     * @throws IOException - exceção de entrada e saída
+     */
     @Override
     public void filter(ContainerRequestContext requestContext, ContainerResponseContext responseContext) throws IOException {
         MultivaluedMap<String, Object> headers = responseContext.getHeaders();
