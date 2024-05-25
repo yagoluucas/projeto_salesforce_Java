@@ -1,6 +1,6 @@
-package org.resource;
+package salesforce;
 
-import org.configuration.CorsFilter;
+import salesforce.configuration.CorsFilter;
 import org.glassfish.grizzly.http.server.HttpServer;
 import org.glassfish.jersey.grizzly2.httpserver.GrizzlyHttpServerFactory;
 import org.glassfish.jersey.server.ResourceConfig;
@@ -22,7 +22,7 @@ public class Main {
     public static HttpServer startServer() {
         // create a resource config that scans for JAX-RS resources and providers
         // in org.example package
-        final ResourceConfig rc = new ResourceConfig().packages("org.resource");
+        final ResourceConfig rc = new ResourceConfig().packages("salesforce.resource");
         rc.register(CorsFilter.class);
         // create and start a new instance of grizzly http server
         // exposing the Jersey application at BASE_URI

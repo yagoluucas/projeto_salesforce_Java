@@ -1,7 +1,7 @@
-package org.services;
+package salesforce.services;
 
-import org.entities.TesteGratis;
-import org.repository.TesteGratisRepository;
+import salesforce.entities.TesteGratis;
+import salesforce.repository.TesteGratisRepository;
 
 public class TesteGratisService {
     private static final TesteGratisRepository testeGratisRepository = new TesteGratisRepository();

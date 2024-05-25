@@ -1,4 +1,4 @@
-package org.configuration;
+package salesforce.configuration;
 
 import jakarta.ws.rs.container.ContainerRequestContext;
 import jakarta.ws.rs.container.ContainerResponseContext;

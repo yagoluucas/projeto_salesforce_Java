@@ -1,4 +1,4 @@
-package org.configuration;
+package salesforce.configuration;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.sql.Connection;

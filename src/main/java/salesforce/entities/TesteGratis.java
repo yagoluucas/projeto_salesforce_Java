@@ -1,4 +1,4 @@
-package org.entities;
+package salesforce.entities;
 
 
 public class TesteGratis extends _BaseEntity {

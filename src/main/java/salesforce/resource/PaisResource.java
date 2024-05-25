@@ -1,11 +1,11 @@
-package org.resource;
+package salesforce.resource;
 import jakarta.ws.rs.GET;
 import jakarta.ws.rs.Path;
 import jakarta.ws.rs.PathParam;
 import jakarta.ws.rs.Produces;
 import jakarta.ws.rs.core.MediaType;
-import org.entities.Pais;
-import org.repository.PaisRepository;
+import salesforce.entities.Pais;
+import salesforce.repository.PaisRepository;
 
 import java.util.List;
 

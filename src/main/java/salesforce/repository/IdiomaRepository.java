@@ -1,8 +1,8 @@
-package org.repository;
+package salesforce.repository;
 
-import org.configuration.OracleDatabase;
-import org.configuration._Logger;
-import org.entities.Idioma;
+import salesforce.configuration.OracleDatabase;
+import salesforce.configuration._Logger;
+import salesforce.entities.Idioma;
 
 import java.sql.SQLException;
 import java.util.ArrayList;

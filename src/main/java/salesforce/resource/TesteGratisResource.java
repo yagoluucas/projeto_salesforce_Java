@@ -1,12 +1,12 @@
-package org.resource;
+package salesforce.resource;
 import jakarta.json.Json;
 import jakarta.json.JsonObject;
 import jakarta.ws.rs.*;
 import jakarta.ws.rs.core.MediaType;
-import org.entities.TesteGratis;
-import org.repository.AtividadeDoSiteRepository;
-import org.repository.TesteGratisRepository;
-import org.services.TesteGratisService;
+import salesforce.entities.TesteGratis;
+import salesforce.repository.AtividadeDoSiteRepository;
+import salesforce.repository.TesteGratisRepository;
+import salesforce.services.TesteGratisService;
 import java.util.List;
 @Path("testegratis")
 public class TesteGratisResource {

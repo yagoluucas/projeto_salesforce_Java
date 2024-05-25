@@ -1,4 +1,4 @@
-package org.entities;
+package salesforce.entities;
 public class Suporte extends _BaseEntity {
     private String nomeEmpresa;
     private String nomePessoa;

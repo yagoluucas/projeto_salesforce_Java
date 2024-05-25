@@ -1,4 +1,4 @@
-package org.entities;
+package salesforce.entities;
 
 public class Pais extends _BaseEntity {
     private String descricao;

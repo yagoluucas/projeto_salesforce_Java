@@ -1,6 +1,6 @@
-package org.repository;
+package salesforce.repository;
 
-import org.entities._BaseEntity;
+import salesforce.entities._BaseEntity;
 
 import java.util.List;
 

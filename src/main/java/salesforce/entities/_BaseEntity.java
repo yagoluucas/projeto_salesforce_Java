@@ -1,4 +1,4 @@
-package org.entities;
+package salesforce.entities;
 
 public abstract class _BaseEntity {
     private int id;

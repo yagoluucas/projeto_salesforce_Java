@@ -1,4 +1,4 @@
-package org.configuration;
+package salesforce.configuration;
 
 import org.apache.logging.log4j.Level;
 import org.apache.logging.log4j.LogManager;
